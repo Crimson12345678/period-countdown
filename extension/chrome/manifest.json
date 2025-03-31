@@ -1,14 +1,18 @@
 {
-  "manifest_version": 2,
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "manifest_version": 3,
   "name": "Period Countdown",
   "short_name": "Countdown",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "A Chrome extension that accompanies the Period Countdown (periods.io) website.",
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html",
     "default_icon": "/img/1024.png"
   },
   "icons": {
-    "1024": "/img/1024.png"
-  }
+    "16": "/img/1024.png",
+    "48": "/img/1024.png",
+    "128": "/img/1024.png"
+  },
+  "permissions": ["storage"]
 }
